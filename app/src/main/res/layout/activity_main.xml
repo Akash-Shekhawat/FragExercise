@@ -9,78 +9,35 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:srcCompat="@drawable/img" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="30dp"
-        android:hint="User Email"
-        android:ems="10"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="30dp"
-        android:hint="Password"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-    <Button
-        android:gravity="center"
-        android:id="@+id/button2"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:text="Forgot Password?" />
+        android:text="Check Different Layout"
+        android:textSize="26dp"
+        android:textStyle="italic|bold"
+
+        />
+
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/linearLayoutDemoBtn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:background="#AFB73A"
-        android:text="SiGN In"
+        android:text="Linear Layout" />
+
+    <Button
+        android:id="@+id/relativeLayoutDemoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+
         />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/constraintLayoutDemoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:text="Don't have Account" />
+        android:text="Constraint Layout"
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:text="Sign Up" />
-
-
+        />
 </LinearLayout>

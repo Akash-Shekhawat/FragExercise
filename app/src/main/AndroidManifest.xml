@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FragExercise">
         <activity
+            android:name=".ConstraintLayout"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayout"
+            android:exported="true" />
+        <activity
             android:name=".Relative"
             android:exported="true" />
         <activity
